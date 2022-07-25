@@ -1,15 +1,17 @@
-.header-link{
-  text-decoration: none;
-  color: #333333;
-  margin: 0px 30px 10px 0px;
-
-}
-
 .header{
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
-.slogan{
-  color: #93B2FF;
+.header-link{
+  text-decoration: none;
+  color: #333333;
+}
+
+.header-logo{
+  display: flex;
+  color: #93b2ff;
+  text-align: center;
+  flex-direction: column;
 }
