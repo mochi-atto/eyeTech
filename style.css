@@ -8,6 +8,7 @@
   display: flex;
   text-decoration: none;
   color: #333333;
+  margin: 10px;
 }
 
 .header-logo{
@@ -15,4 +16,8 @@
   color: #93b2ff;
   text-align: center;
   flex-direction: column;
+}
+.header-links{
+  display: flex;
+  flex-direction: row;
 }
